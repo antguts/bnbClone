@@ -1,0 +1,19 @@
+h1 { 
+    /* background-color: aliceblue; */
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 5px #c0b6b6);
+}
+
+nav {
+    padding-left: 5vw;
+}
+
+nav img {
+    width: 150px;
+}
