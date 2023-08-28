@@ -4,14 +4,14 @@ import "../styles/card.css"
 
 
 
-export default function Card(){
+export default function Card(props){
     return(
         <>
         <div id="singleCard">
-            <img src={katieImg} />
-            <p id="rating">5.0 <span> (6) &bull; USA</span></p>
-            <p id="description">Life lessons with Katie Zaferes</p>
-            <p id="price"><span>From $136 </span>/ person</p>
+            <img src={props.img} />
+            <p id="rating">{props.rating}</p>
+            <p id="description">{props.description}</p>
+            <p id="price">{props.price}</p>
         </div>
     </>
     )
