@@ -1,0 +1,32 @@
+#singleCard {
+    padding-right: 25px;
+    line-height: 1;
+    margin-top: 60px;
+}
+
+#singleCard img {
+    width: 270px;
+    height: 300px;
+}
+
+#price span {
+    font-weight: bold;
+}
+
+#rating {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+#rating::before {
+    display: inline-block;
+    content: url(../assets/redStar.png);
+    transform: scale(.85) translateY(1px);
+    padding-right: 5px;
+    bottom: 0;
+}
+
+#rating span {
+    font-size: 20px;
+    color: rgb(168, 166, 163);
+}
